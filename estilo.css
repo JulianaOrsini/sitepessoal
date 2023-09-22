@@ -1,108 +1,82 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: Verdana, Tahoma, sans-serif;
-}
-header {
-  background-color: #6ccad6;
-}
-#topo {
-  width: 200px;
-  height: 200px;
-  margin: auto; /*Margin: auto -> estratégia para centralizar uma div*/
-}
-header h1 {
-  text-transform: uppercase;
-  font-style: italic;
-  font-size: 20px;
-  color: #6ccad6;
-  letter-spacing: 12px;
-  line-height: 50px;
-  width: 50px;
-  float: left;
-  padding: 60px 0 30px;
-}
-header p {
-  color: #6ccad6;
-  font-size: 20px;
-  width: 300px;
-  float: left;
-}
-header img {
-  margin-top: 10px;
-}
-main h2 {
-  text-align: center;
-  padding: 30px 0 40px;
-  color: #6b3203;
-  font-size: 32px;
-  letter-spacing: 2px;
-}
-#conteudo-home {
-  width: 1280px;
-  height: 280px;
-  margin: auto;
-}
-.regiao {
-  border: 2px solid#ccc;
-  border-radius: 15px;
-  margin: 7px;
-  float: left;
-}
-#conteudo-home img {
-  margin-top: -2px;
-  margin-left: -2px;
-}
-#conteudo-home a {
-  display: block;
-  width: 400px;
-  height: 160px;
-}
-#conteudo-home p {
-  text-align: center;
-  margin: 15px 0 20px;
-  font-weight: bold;
-  color: #6333b1;
-}
-footer {
-  background-color: white;
-  text-align: center;
-  font-style: italic;
-  color: #fff;
-  padding: 10px 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Páginas internas */
-#conteudo-interno {
-  width: 1280px;
-  height: 480px;
-  margin: auto;
+body {
+    font-family: Arial, sans-serif;
 }
-#conteudo-interno h2 {
-  text-align: left;
-  text-indent: 10px;
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6ccad6;
+    position: relative;
 }
-.foto {
-  border: 2px solid #ccc;
-  border-radius: 15px;
-  margin: 10px;
-  float: left;
+
+.header-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(242, 242, 242, 0.5);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
-.foto img {
-  border-radius: 15px 15px 0 0;
+
+.header-overlay h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
 }
-.legenda {
-  text-align: center;
+
+
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
-.capital {
-  font-weight: bold;
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.voltar {
-  font-size: 14px;
-  font-style: italic;
-  display: block;
-  text-align: center;
-  padding: 20px 0;
+
+.link-div {
+    text-align: center;
+    margin: 20px;
+}
+
+.link-div a {
+    text-decoration: none;
+    color: #333;
+}
+
+.link-div img {
+    max-width: 100%;
+    height: auto;
+}
+
+.link-div p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6ccad6;
+}
+
+footer p {
+    font-weight: bold;
+    text-transform: uppercase;
 }
