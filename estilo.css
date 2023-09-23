@@ -10,7 +10,7 @@ body {
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     background-color: #6ccad6;
     position: relative;
 }
@@ -51,7 +51,7 @@ main {
 
 .link-div {
     text-align: center;
-    margin: 20px;
+    margin: 50px;
 }
 
 .link-div a {
@@ -80,3 +80,8 @@ footer p {
     font-weight: bold;
     text-transform: uppercase;
 }
+p {
+    
+   
+    text-align: justify;
+    }

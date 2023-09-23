@@ -1,64 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="estiloProfissional.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Meu Site Pessoal</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Samuel Orsini" />
+  <meta name="description" content="Descrição do conteúdo" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="icon" href="./img/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+
+  <title>Profissional</title>
 </head>
 
 <body>
-    <div id="container">
-        <div id="content-wrap">
-
-            <header>
-                <img src="img/headerHall.jpg" alt="Minha Foto" width="200px" class="rounded-circle">
-                <div class="header-overlay">
-                    <a href="index.html" style="text-decoration: none; color: black;"><h1>Juliana Orsini</h1></a>
-                </div>
-            </header>
-
-            <div class="text-center mt-5">
-                <h1><strong>UM POUCO SOBRE A MINHA PROFISSÃO</strong></h1>
-            </div>
-
-            <main>
-
-                <div class="link-div">
-                    <img src="img/profissional/cristalia.jpg" alt="" width="250px"
-                        class="rounded-circle border border-4 border-info">
-                    <p>Aqui voce coloca o texto</p>
-                </div>
-                <div class="link-div">
-                    <img src="img/sobremim/juTonoli2.jpg" alt="" width="250px"
-                        class="border border-4 border-info rounded">
-                    <p>Aqui voce coloca o texto</p>
-                </div>
-                <div class="link-div">
-                    <img src="img/sobremim/fornoTonoli.jpg" alt="" width="400px"
-                        class="border border-4 border-info rounded-circle">
-                    <p>Aqui voce coloca o texto</p>
-                </div>
-
-                <div class="mt-5">
-                    <h1>Titulo</h1>
-                    <p>Aqui voce coloca o texto sobre sua profissão</p>
-                </div>
-            </main>
-
-        </div>
-        <footer id="footer">
-            <p>Desenvolvido pela As Aventuras da Ju</p>
-        </footer>
+  <header>
+    <div id="topo">
+      <nav>
+        <li>
+          <a class="links" href="index.html"> Home </a>
+        </li>
+        <li>
+          <a class="links" href="sobremim.html"> Sobre mim </a>
+        </li>
+        <li>
+          <a class="links" href="profissional.html"> Profissional </a>
+        </li>
+        <li>
+          <a class="links" href="viagens.html">Viagens</a>
+        </li>
+      </nav>
     </div>
+  </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <main>
+    <div id="conteudo-interno">
+      <h2 class="titulo-2">Profissional</h2>
+
+      <ul class="formacao">
+        <li>
+          Sou formada em Administração de Empresa (UNIESI)
+        </li>
+        <li>
+          MBA Gestão de Vendas e Trade Marketing (ESAMC)
+        </li>
+        <li>
+          Cursando Desenvolvimento de Software e Multiplataforma(FATEC Itapira)
+        </li>
+      </ul>
+
+      <aside>
+        <img class="img-no-texto" src="./img/sobremim/juTonoli.jpg" alt="Ju Tonoli" title="Ju Tonoli" />
+      </aside>
+
+      <div class="aside-conteudo">
+        <h3 class="subtitulos2">Onde tudo começou</h3>
+
+        <p class="texto-prof">
+          Iniciei com 13 anos a trabalhar na malharia de uma grande amiga, fazendo luvas de lã , posteriormente a tecer
+          , cortar e costurar.
+          Quando fui morar com meu esposo em outubro de 1.999 , me mudei para uma fazenda longe da cidade, então parei
+          de trabalhar nesta malharia (estava com 15 anos), terminei o 1º ano do ensino médio e parei os estudos, pois
+          logo comecei a trabalhar no olaria e na fábrica de aguardente, e não foi possível conciliar de trabalhar e
+          estudar.
+          Muitas coisas aconteceram e em 2003 tive meu filho, e pensando em que futuro daria a ele, resolvi enfrentar
+          meus medos e mudar totalmente nossas vidas no ano de 2006.
+          Acredito que como muitos itapirenses sempre teve o sonho de trabalhar no Laboratório Cristália,
+          o meu também foi.
+        </p>
+      </div>
+
+      <aside>
+        <img class="img-no-texto" src="./img/profissional/cristalia.jpg" alt="ju cristalia" title="ju cristalia" />
+      </aside>
+
+      <div class="aside-conteudo">
+        <h3 class="subtitulos2">Cristália</h3>
+
+        <p class="texto-prof">
+          Então inicie meu trabalho no Laboratório Cristália no dia 13/03/2006 como serviços gerais, eu lavava material
+          de laboratório, nossa para mim que carregava carrinho de tijolos o dia todo aquele trabalho novo estava no céu
+          e ainda ganhando três vezes mais que ganhava no olaria, foi uma grande realização profissional.
+          Então a primeira decisão após iniciar o trabalho no Cristália foi terminar o ensino médio, e assim, no mesmo
+          ano em agosto de 2006 iniciei o supletivo, na escola Prof. Cândido de Moura.
+          Após finalizar o ensino médio surgiu uma oportunidade de promoção para auxiliar administrativo, nossa foi
+          maravilhoso, um ano após ter entrado na empresa, uma promoção foi um sonho realizado.
+          Então decidi que precisava fazer uma graduação, e com o apoio do meu esposo e família, pois tínhamos filho de
+          quatro anos, ingressei na faculdade de Administração de Empresa em 2008.
+          Finalizei a faculdade de Administração de Empresas em 2011, e no setor que trabalhava por ser muito técnico
+          era Desenvolvimento Analítico, não havia perspectivas de crescimento profissional, então surgiu uma vaga
+          interna para assistente de licitações, e lá fui eu para mais um desafio.
+          Em 18 de fevereiro de 2013 iniciei neste novo setor, no começo não foi fácil, pois até as pessoas te
+          conhecerem e você conhecê-las, muitas coisas acontecem, mas comecei a amar o que fazia, e a cada dia que
+          conhecia mais, mais ideias e sugestões eu dava, e com isso fui sendo reconhecida com aumento de salário e em
+          dezembro 2016 promovida para Analista de Licitações.
+          Em 2018 iniciei MBA Gestão de Vendas e Trade Markting na ESAMC e em 2021 fui promovida a Analista Sênior.
+          Como não podemos nunca parar de buscar novos conhecimentos em 2022 iniciei o curso de Desenvolvimento de
+          Software e Multiplataforma na FATEC Itapira.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer-profissional">
+    <strong>Desenvolvido por Juliana Orsini</strong>
+  </footer>
 </body>
 
 </html>
